@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Calculator Test Suite" parallel="tests" thread-count="1">
+    <test name="Samsung Galaxy A16 Test">
+        <parameter name="deviceName" value="Galaxy A16"/>
+        <parameter name="platformVersion" value="16"/>
+        <parameter name="appPackage" value="com.sec.android.app.popupcalculator"/>
+        <parameter name="appActivity" value=".Calculator"/>
+        <classes>
+            <class name="tests.CalculatorTest"/>
+        </classes>
+    </test>
+</suite>

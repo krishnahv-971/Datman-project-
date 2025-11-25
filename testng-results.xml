@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-25T18:05:21 IST" name="Calculator Test Suite" finished-at="2025-11-25T18:06:13 IST" duration-ms="51694">
+    <groups>
+    </groups>
+    <test started-at="2025-11-25T18:05:21 IST" name="Samsung Galaxy A16 Test" finished-at="2025-11-25T18:06:13 IST" duration-ms="51694">
+      <class name="tests.CalculatorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CalculatorTest@1d082e88]" started-at="2025-11-25T18:05:21 IST" name="setUp" finished-at="2025-11-25T18:05:29 IST" duration-ms="7568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddition()[pri:1, instance:tests.CalculatorTest@1d082e88]" started-at="2025-11-25T18:05:29 IST" name="testAddition" description="Test addition operation" finished-at="2025-11-25T18:05:34 IST" duration-ms="5331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testSubtraction()[pri:2, instance:tests.CalculatorTest@1d082e88]" started-at="2025-11-25T18:05:34 IST" name="testSubtraction" description="Test subtraction operation" finished-at="2025-11-25T18:05:42 IST" duration-ms="7367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testMultiplication()[pri:3, instance:tests.CalculatorTest@1d082e88]" started-at="2025-11-25T18:05:42 IST" name="testMultiplication" description="Test multiplication operation" finished-at="2025-11-25T18:05:49 IST" duration-ms="6836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testDivision()[pri:4, instance:tests.CalculatorTest@1d082e88]" started-at="2025-11-25T18:05:49 IST" name="testDivision" description="Test division operation" finished-at="2025-11-25T18:05:58 IST" duration-ms="9179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDecimalOperations()[pri:5, instance:tests.CalculatorTest@1d082e88]" started-at="2025-11-25T18:05:58 IST" name="testDecimalOperations" description="Test decimal operations" finished-at="2025-11-25T18:06:13 IST" duration-ms="14935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecimalOperations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CalculatorTest@1d082e88]" started-at="2025-11-25T18:06:13 IST" name="tearDown" finished-at="2025-11-25T18:06:13 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CalculatorTest -->
+    </test> <!-- Samsung Galaxy A16 Test -->
+  </suite> <!-- Calculator Test Suite -->
+</testng-results>
